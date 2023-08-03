@@ -820,3 +820,36 @@ fill: #4D5AE5;
         display: block;
         margin-bottom: 8px;
 }
+
+.modal-check:checked + .check-field {
+background-color: #404BBF;
+}
+
+.check-text{
+    color: var(--lightslate, #8E8F99);
+        font-size: 12px;
+        line-height: 1.17;
+        letter-spacing: 0.04em;
+      
+}
+
+.check-field{
+    display: inline-flex;
+    width: 16px;
+    height: 16px;
+border-radius: 2px;
+    border: 1px solid var(--navyblue-modal, rgba(46, 47, 66, 0.40));
+       justify-content: center;
+       align-items: center;
+    margin-right: 8px;
+}
+
+.check-icon{
+    fill: transparent;
+}
+
+.privacy-link{
+color: var(--iris, #4D5AE5);
+line-height: 1.33;
+text-decoration-line: underline;
+}
