@@ -826,7 +826,9 @@ body {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
+.modal-field-comment{
+    margin-bottom: 16px;
+}
 
 .modal-textarea {
     display: flex;
@@ -834,7 +836,7 @@ body {
     height: 120px;
     border-radius: 4px;
     border: 1px solid var(--navyblue-modal, rgba(46, 47, 66, 0.40));
-    padding: 8px 16px;
+  
     background-color: transparent;
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -857,6 +859,10 @@ body {
     letter-spacing: 0.03em;
 }
 
+.modal-field-checkbox{
+    margin-bottom: 24px;
+}
+
 .modal-form-btn {
     display: block;
     color: var(--white, #FFF);
@@ -867,7 +873,6 @@ body {
     line-height: 1.5;
     letter-spacing: 0.04em;
     padding: 16px 32px;
-    margin-top: 24px;
     transform: translateX(55%);
     border-radius: 4px;
     border: none;
